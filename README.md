@@ -1,10 +1,8 @@
 
 # Installation
+```r
 install.packages("devtools")
 devtools::install_github("apustat/stabel")
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r, warning=FALSE, echo=TRUE, warning=FALSE, message=FALSE, results='hide'}
