@@ -6,7 +6,7 @@ devtools::install_github("apustat/stabel")
 ```
 
 ```{r, warning=FALSE, echo=TRUE, warning=FALSE, message=FALSE, results='hide'}
-#loading all libraries
+# Loading all dependent libraries
 library(stabel)
 library(MASS)
 library(glmnet)
