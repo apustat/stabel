@@ -1,12 +1,12 @@
 
-# Installation
+## Installation
 ```r
 install.packages("devtools")
 devtools::install_github("apustat/stabel")
 ```
 
+## Loading all dependent libraries
 ```{r, warning=FALSE, echo=TRUE, warning=FALSE, message=FALSE, results='hide'}
-# Loading all dependent libraries
 library(stabel)
 library(MASS)
 library(glmnet)
