@@ -1,14 +1,7 @@
-Details coming soon.
-Installation:
 
+# Installation
 install.packages("devtools")
 devtools::install_github("apustat/stabel")
-
----
-title: "Introduction to STABEL"
-output: html_document
-#date: "2025-01-13"
----
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
