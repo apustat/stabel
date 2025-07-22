@@ -7,7 +7,7 @@ Authors@R: c(
     person("Lynette", "Smith", email = "lmsmith@unmc.edu", role = "ctb"))
 Description: This R package introduces stabel, a novel methodology combining stability selection with ensemble learning for robust variable selection and prediction in high-dimensional datasets. stabel supports multiple modeling approaches, including Lasso, sparseSVM, and Random Forest, offering flexibility and adaptability across diverse data structures. The framework is designed to enhance accuracy in identifying true predictors while minimizing false discoveries, making it particularly suited for biomarker identification and other applications in biomedical research. Additionally, stabel includes functionalities for model evaluation and prediction using Super Learner, providing a comprehensive toolkit for researchers handling complex data.
 Imports: MASS, glmnet, Boruta, sparseSVM, SuperLearner, pROC
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2.9000
