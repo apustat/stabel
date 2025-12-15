@@ -6,7 +6,7 @@ library(SuperLearner)
 library(pROC)
 library(glmnet)
 
-df=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/R package paper/PTCL.GEP.DATA/combined.data/PTCL_NOS.csv")[,-1]
+df=read.csv("C:/Users/........../PTCL.GEP.DATA/combined.data/PTCL_NOS.csv")[,-1]
 ##GATA(0)=40, Tbet(1)=59
 
 n <- nrow(df)
@@ -86,3 +86,4 @@ stabel.pred(X = X[, vs.avg, drop = FALSE], Y=Y,
             SL.library = c("SL.randomForest", "SL.svm", "SL.lda"), 
             family = "binomial", thr.prob = NULL, use.youden = TRUE, 
             nfolds = 4, target.specificity = 0.985, seed = 10)
+
