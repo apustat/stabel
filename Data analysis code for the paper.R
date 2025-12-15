@@ -72,18 +72,3 @@ pred.avg$sensitivity.at.specificity; pred.RF$sensitivity.at.specificity; pred.la
 
 
 
-
-
-
-stabel.vs(X=X[, sig_var], Y=Y, cutoff = cutoff, B = 50, bestlam.Lasso = 0.0003, 
-          maxit.Lasso = 1e+05, bestlam.sparseSVM = 0.68, maxit.sparseSVM = 1000, 
-          gamma = 0.1, family = "binomial", dfmax = 10, ntree=300, mcAdj = TRUE, 
-          maxRuns = 300, pValue = 0.2, fit.fun = c("Lasso", "sparseSVM", "RF"),
-          comb.method = "average", seed = 10)
-stabel.pred(X = X[, vs.avg, drop = FALSE], Y=Y, 
-            newX = as.matrix(test_data[, vs.avg, drop = FALSE]),
-            newY = test_data$Response, method = "method.NNLS", 
-            SL.library = c("SL.randomForest", "SL.svm", "SL.lda"), 
-            family = "binomial", thr.prob = NULL, use.youden = TRUE, 
-            nfolds = 4, target.specificity = 0.985, seed = 10)
-
